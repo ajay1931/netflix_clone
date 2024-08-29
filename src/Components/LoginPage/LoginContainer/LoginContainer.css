@@ -1,0 +1,74 @@
+.loginContainer{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.794);
+    color: white;
+}
+.loginContainer_header{
+    display: flex;
+    padding: 10px;
+    position: sticky;
+    
+}
+.loginContainer_header_left{
+    flex: .8;
+    padding-left: 100px;
+    color: rgb(229, 9, 20);
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+.loginContainer_header_right{
+    flex: .2;
+}
+.loginContainer_header_right>button{
+    background-color:rgb(229, 9, 20) ;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size:large;
+    cursor: pointer;
+}
+.loginContainer_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10%;
+}
+.loginContainer_content>h1{
+    letter-spacing: 1px;
+    font-size:xxx-large;
+}
+.loginContainer_content>h3{
+    padding: 15px;
+    font-weight:normal;
+}
+.loginContainer_content>h4{
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.loginContainer_content_login>input{
+    padding: 18px;
+    margin-right: 25px;
+    width: 250px;
+    background:rgba(255, 255, 255, 0.098);
+    border-color: white;
+    letter-spacing: inherit;
+    color: white;
+    border-radius: 5px;
+}
+.loginContainer_content_login>button{
+    padding: 18px;
+    width: 150px;
+    background-color:rgb(229, 9, 20) ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
